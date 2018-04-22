@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Activities.SplashScreen">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/colorPrimaryDark"
+        tools:context=".Activities.SignInActivity">
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="100dp"
+            android:id="@+id/apptitle_textview"
+            android:textSize="28sp"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:textColor="@color/white"
+            android:text="@string/app_title"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/apptitle2_textview"
+            android:layout_below="@id/apptitle_textview"
+            android:textSize="28sp"
+            android:gravity="center"
+            android:textColor="@color/white"
+            android:text="@string/text_mob"/>
+
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="20dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginBottom="150dp"
+            android:background="@color/white"
+            android:textColor="@color/black"
+            android:text="@string/text_google_login"
+            android:id="@+id/google_login_bouuton"
+            android:layout_alignParentBottom="true"/>
+
+
+    </RelativeLayout>
+</android.support.constraint.ConstraintLayout>

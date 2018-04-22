@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">HackerNews</string>
+
+    <string name="app_title">Hacker News</string>
+    <string name="article_url">There is no URL for this article</string>
+    <string name="text_mob">mobile</string>
+    <string name="comments_num">99</string>
+    <string name="stars_num">99</string>
+    <string name="text_google_login">Google Sign-in</string>
+</resources>
